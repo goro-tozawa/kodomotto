@@ -5,7 +5,8 @@ body{
   font-family: serif;
   background-color: #ffffff;
   columns: #111111;
-  /* height: 5000px; */
+  color: #333;
+  margin: 0 auto;
 }
 
 *,
@@ -17,7 +18,10 @@ body{
 /* ヘッダー */
 
 header {
-  padding: 50px;
+  height: 60px;
+  display: flex;
+  padding: 0 60px;
+  /* padding: 50px; */
 }
 @keyframes titleAnimation{
   0%{
@@ -28,11 +32,15 @@ header {
 }
 
 header h1{
-  font-size: 70px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 60px;
   white-space: nowrap;
   animation: titleAnimation 1.5s;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
 }
 
 .inner {
