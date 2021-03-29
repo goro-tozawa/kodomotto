@@ -275,15 +275,6 @@ main .contents li.show img{
   transition: 1s;
 }
 
-/* .top-contents p{
-  line-height: 1.6;
-  background-color: #555;
-  font-size: 14px;
-  max-width: 340px;
-  padding: 15px;
-  margin-top: 30px;
-  border-radius: 5px;
-} */
 
 .photo{
   box-shadow: 0 10px 25px 0 rgba(60, 194, 235, 0.25);
